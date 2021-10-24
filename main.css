@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 margin: 0px;
 padding: 0px;
@@ -83,4 +84,91 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.30em;
 color: #FFFFFF;
+=======
+body {
+margin: 0px;
+padding: 0px;
+position: absolute;
+width: auto;
+height: 962px;
+background-color:  #000000;
+}
+
+.logo {
+position: absolute;
+width: 100px;
+height: 124px;
+left: 120px;
+top: 80px;
+mix-blend-mode:normal;
+filter: drop-shadow(1px 0px 1px #000000);
+}
+
+.bg {
+width: 1324px;
+height: 962px;
+background-image: url("./assets/bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.test {
+position: absolute;
+width: 720px;
+height: 129px;
+left: 162px;
+top: 427px;
+font-family: Rosarivo;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 67px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+
+.tet {
+position: absolute;
+width: 615px;
+height: 28px;
+left: 162px;
+top: 635px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+
+.act {
+position: absolute;
+width: 197px;
+height: 49px;
+left: 308px;
+top: 681px;
+background: #FF0000;
+border-radius: 13px;
+z-index: 2;
+}
+
+footer {
+position: absolute;
+width: 1324px;
+height: 34px;
+top: 948px;
+background-color: black;
+font-family: Rosarivo, Arial, Helvetica, sans-serif ;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 105px;
+/* identical to box height */
+align-items: center;
+text-align: center;
+letter-spacing: 0.30em;
+color: #FFFFFF;
+>>>>>>> 6d5b6ac45c4b4e1f4b7f1f0e5677e33599c6a0f8
 }
