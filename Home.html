@@ -14,63 +14,86 @@
     		<meta property="og:locale" content="root">
     		<link rel="icon" type="image/png" href="#" sizes="64px x 64px">
     		<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+            <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     		<script src='main.js'></script>
 	</head>
 	<body class="bg">
-        <!----- logo ------>
-            <div class="logo">
-            	<a href="./Home.html"><img src="./assets/logo.png" alt=""></a>
-            </div>
-        <!--x-- logo --x--->
-
-        <!----- nav ------>
-            <nav>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="./Home.html"> HOME </a>
-                            <a href="./Products.html"> PRODUCTS </a>
-                            <a href="./contact.html"> CONTACT </a>
-                        </li>
-                    </ul> 
+        <div class="hero">
+            <!----Navbar-->
+            <div class="navbar">
+                <!---Logo-->
+                <div class="logo">
+                    <a href="./assets/"><img src="./assets/logo2.png" alt=""></a>
                 </div>
-            </nav>
-        <!---x- nav --x--->
-    
-        <!----- lower bg ------>
-            <div class="bg">
-                <p>GET THE BEST AUTO PARTS AND ACCESSORIES</p>
+                <!---Leftside navbar-->
+                <div class="left-nav">
+                    <!---Navigation Links-->
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link"><a href="./Home.html">Home</a></li>
+                        <li class="nav-link"><a href="./Products.html">Products</a></li>
+                        <li class="nav-link"><a href="./Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!---Search Bar-->
+                <div class="search-container">
+                       <form action="https://www.google.com/search" method="get" class="search-bar">
+                           <input type="text" placeholder="Search..." name="search">
+                           <button type="submit"><img src="./assets/search.png" alt=""></button>
+                       </form>
+                  </div>
+                  <!--Login button-->
+                  <div class="login">
+                      <button class="login-btn">Login</button>
+                  </div>
             </div>
-        <!--x-- lower bg --x--->
-
-        <!----- lower bg 1------>
-            <div class="test">
-                GET THE BEST AUTO PARTS AND ACCESSORIES
             </div>
-        <!--x-- lower bg 1--x--->
-
-        <!----- lower bg 2------>
-            <div class="tet">
-                Original Auto Parts at the click of the button
+            <!--Main Section-->
+            <div class="main">
+                <!--Left Section-->
+                <div class="left-main">
+                    <h1 class="main-message">GET THE BEST AUTO <br> PARTS AND ACCESSORIES</h1>
+                    <p class="main-text">Original Auto Parts at the click of the button</p>
+                    <button class="main-btn">Shop now</button>
+                </div>
+                <!--Right Section-->
+                <div class="right-main">
+                    <div class="service">
+                        <img src="./assets/wheels.jpg" height="100px" width="95px" alt="">
+                        <p class="service-text">Tyres and Rims</p>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/engine.jpg" height="100px" width="95px" alt="">
+                        <p class="service-text">Engine Parts</p>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/door.jpg" height="100px" width="95px" alt="">
+                        <p class="service-text">Body accessories</p>
+                    </div>
+                </div>
             </div>
-        <!--x-- lower bg 2--x--->
-
-        <!----- lower bg 2------
-            <div class="act">
-            </>
-        <!--x-- lower bg 2--x--->
-
-
-
-
-
-
-
-
-        <!----- footer ------>
             <footer>
                 All right reserved | &copy Auto Revive Nigeria Limited 2021
             </footer>
-        <!--x-- footer --x--->
+        </div>
     </body>
 </html>
+
+<!-- 
+<div class="bg">
+    <p>GET THE BEST AUTO PARTS AND ACCESSORIES</p>
+</div>
+
+<div class="test">
+    GET THE BEST AUTO PARTS AND ACCESSORIES
+</div>
+
+<div class="tet">
+    Original Auto Parts at the click of the button
+</div> -->
+
+  <!----- footer ------>
+  <!-- <footer>
+    All right reserved | &copy Auto Revive Nigeria Limited 2021
+</footer>
+x-- footer --x- -->
